@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq.PredicateBuilder", "Linq.PredicateBuilder\Linq.PredicateBuilder.csproj", "{6243437C-0F56-414A-A2E8-28BEB1CBAD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.VnPay", "Payment.VnPay\Payment.VnPay.csproj", "{A7E90F9D-D329-4F41-A982-2641A41E75E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6243437C-0F56-414A-A2E8-28BEB1CBAD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6243437C-0F56-414A-A2E8-28BEB1CBAD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6243437C-0F56-414A-A2E8-28BEB1CBAD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6243437C-0F56-414A-A2E8-28BEB1CBAD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
