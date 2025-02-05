@@ -1,0 +1,6 @@
+@PaymentService.Paypal_HostAddress = http://localhost:5170
+
+GET {{PaymentService.Paypal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

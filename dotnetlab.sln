@@ -2,7 +2,15 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq.PredicateBuilder", "Linq.PredicateBuilder\Linq.PredicateBuilder.csproj", "{6243437C-0F56-414A-A2E8-28BEB1CBAD22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.VnPay", "Payment.VnPay\Payment.VnPay.csproj", "{A7E90F9D-D329-4F41-A982-2641A41E75E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.VnPay", "PaymentService.VnPay\PaymentService.VnPay.csproj", "{A7E90F9D-D329-4F41-A982-2641A41E75E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Stripe", "PaymentService.Stripe\PaymentService.Stripe.csproj", "{9F3673BB-FAEA-4315-B719-7CB9F4599F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Momo", "PaymentService.Momo\PaymentService.Momo.csproj", "{55DABE10-B278-47FB-BA9C-189CC51B9F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.Paypal", "PaymentService.Paypal\PaymentService.Paypal.csproj", "{82477F21-CC52-4152-B885-6DE66F770BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService.ZaloPay", "PaymentService.ZaloPay\PaymentService.ZaloPay.csproj", "{86A8D9DD-9E90-40F2-8C28-881E6ACF5DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +26,21 @@ Global
 		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7E90F9D-D329-4F41-A982-2641A41E75E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3673BB-FAEA-4315-B719-7CB9F4599F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3673BB-FAEA-4315-B719-7CB9F4599F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3673BB-FAEA-4315-B719-7CB9F4599F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3673BB-FAEA-4315-B719-7CB9F4599F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DABE10-B278-47FB-BA9C-189CC51B9F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DABE10-B278-47FB-BA9C-189CC51B9F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DABE10-B278-47FB-BA9C-189CC51B9F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DABE10-B278-47FB-BA9C-189CC51B9F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82477F21-CC52-4152-B885-6DE66F770BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82477F21-CC52-4152-B885-6DE66F770BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82477F21-CC52-4152-B885-6DE66F770BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82477F21-CC52-4152-B885-6DE66F770BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A8D9DD-9E90-40F2-8C28-881E6ACF5DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A8D9DD-9E90-40F2-8C28-881E6ACF5DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A8D9DD-9E90-40F2-8C28-881E6ACF5DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A8D9DD-9E90-40F2-8C28-881E6ACF5DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
